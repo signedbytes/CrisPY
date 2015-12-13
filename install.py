@@ -21,7 +21,7 @@ class indi:
 				self.black = os.chdir("/home/")
 				self.pwd = os.getcwd()
 				
-			        self.do = os.popen("wget http://localhost/crispy_ver_1.0.zip")
+			        self.do = os.popen("wget http://sakuritylabs.com/crispy/crispy_ver_1.0.zip")
 				time.sleep(1)
 				
                                 self.unzip = commands.getoutput("unzip crispy_ver_1.0.zip")
